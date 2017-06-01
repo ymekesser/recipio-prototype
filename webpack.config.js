@@ -17,14 +17,14 @@ module.exports =  {
             },
             {
                 test: /\.css/,
-                loader: "style-loader!css-loader"
+                loader: 'style-loader!css-loader'
             },
             {
                 test: /\.(js|jsx)$/,
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 options: {
-                    presets: ['es2015']
+                    presets: ['es2015'],
                 }
             }
         ]
@@ -32,8 +32,14 @@ module.exports =  {
 
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Recipio Prototype",
-            template: "index.html"
+            title: 'Recipio Prototype',
+            template: 'index.html'
         })
-    ]
+    ],
+
+    devtool: 'source-map',
+    
+    node: {
+        fs: 'empty'
+    }
 };
