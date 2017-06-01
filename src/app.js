@@ -1,6 +1,7 @@
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RecipeStore } from './recipe-store';
+import { LoadDemoRecipes } from './recipe-loader';
 
 class RecipesAppComponent {
 
@@ -9,6 +10,8 @@ class RecipesAppComponent {
 
         this.recipeStore = new RecipeStore();
         this.recipeStore.subscribe(recipes => this.render(recipes));
+
+        LoadDemoRecipes(recipes => recipes.forEach(recipe => this.recipeStore.addRecipe(recipe)));
     }
 
     render(recipes){

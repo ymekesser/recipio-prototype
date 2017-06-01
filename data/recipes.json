@@ -1,0 +1,29 @@
+[{
+    "name": "Greek Penne Salad",
+    "description": "A mediterranian summer side dish or main course.",
+    "source": "http://www.foodnetwork.com/recipes/food-network-kitchen/greek-salad-penne-3363059",
+
+    "ingredients": [
+        ["salt"],
+        [12, "oz", "Penne pasta"],
+        [3, "tbsp", "Extra-virgin olive oil", "plus more for drizzling"],
+        [1, "yellow bell pepper", "cut into inch-strips"],
+        [15, "oz", "chickpeas", "drained and rinsed"],
+        [4, "garlic cloves", "thinly sliced"],
+        [0.25, "tsp", "red pepper flakes"],
+        [0.5, "cup", "kalamata olives", "rinsed and chopped"],
+        [5, "cups", "baby aragula"],
+        [1, "tbsp", "fresh oregano"],
+        ["freshly ground pepper"],
+        [0.75, "cup", "crumbled feta cheese"]
+    ],
+
+    "instructions": [
+        "Bring a large pot of salted water to a boil. Add the pasta and cook as the label directs. Reserve 1/2 cup cooking water, then drain.",
+        "Meanwhile, heat the olive oil in a Dutch oven or large pot over medium-high heat. Add the bell pepper and cook, stirring occasionally, until just tender, about 3 minutes.",
+        "Add the chickpeas, garlic, red pepper flakes and 1/2 teaspoon salt and cook, stirring occasionally, until the garlic is lightly browned, about 3 minutes.",
+        "Add the olives, pasta and the reserved pasta cooking water to the pot; cook 1 minute.",
+        "Remove from the heat and stir in the arugula and oregano until wilted.",
+        "Season with salt and pepper. Top with the feta and drizzle with olive oil."
+    ]
+}]
