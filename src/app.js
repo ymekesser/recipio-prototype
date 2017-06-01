@@ -2,6 +2,7 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RecipeStore } from './recipe-store';
 import { LoadDemoRecipes } from './recipe-loader';
+import { recipeElement } from './recipe';
 
 class RecipesAppComponent {
 
@@ -18,8 +19,8 @@ class RecipesAppComponent {
         this.container.innerHTML = `
         <h1> Recipes <small>(${recipes.length})</small>  </h1>
 
-        <ul id="recipe-list-panel" class="list-group">
-            ${recipes.map(recipe => recipe.name).join('')}
+        <ul class="recipe-list-panel" class="list-group">
+            ${recipes.map(recipe => '<li>' + recipeElement(recipe) + '</li>').join('')}
         </ul>
         `;
     }
