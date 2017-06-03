@@ -26,4 +26,54 @@
         "Remove from the heat and stir in the arugula and oregano until wilted.",
         "Season with salt and pepper. Top with the feta and drizzle with olive oil."
     ]
+},
+
+{
+    "name": "Roasted Sweet Potatoes with Honey and Cinnamon",
+    "description": "A sweet and savoury twist on oven potatoes.",
+    "source": "http://www.foodnetwork.com/recipes/tyler-florence/roasted-sweet-potatoes-with-honey-butter-recipe-1946538",
+
+    "ingredients": [
+        [4, "sweet potatoes", "peeled and cut into 1-inch cubes"],
+        [0.25, "cup", "extra-virgin olive oil", "plus more for drizzling potatoes after cooked"],
+        [0.25, "cup", "honey"],
+        [2, "tsp", "ground cinnamon"],
+        ["Salt"],
+        ["Pepper", "freshly ground"]
+    ],
+
+    "instructions": [
+        "Preheat oven to 375 degrees F.",
+        "Lay the sweet potatoes out in a single layer on a roasting tray.",
+        "Drizzle the oil, honey, cinnamon, salt and pepper over the potatoes.",
+        "Roast for 25 to 30 minutes in oven or until tender.",
+        "Take sweet potatoes out of the oven and transfer them to a serving platter.",
+        "Drizzle with more extra-virgin olive oil."
+    ]
+},
+
+{
+    "name": "Spinach Mushroom and Feta Crustless Quiche",
+    "description": "This Spinach Mushroom and Feta Crustless Quiche might be my new favorite. It has endless possibilities and is a cinch to make. …plus, it reheats well in the microwave for a quick dinner!",
+    "source": "https://www.budgetbytes.com/2011/11/spinach-mushroom-feta-crustless-quiche/",
+
+    "ingredients": [
+        [8, "oz", "button mushrooms"],
+        [1, "clove", "garlic", "minced"],
+        [10, "oz", "box frozen spinach, thawed"],
+        [4, "large eggs"],
+        [1, "cup", "milk"],
+        [2, "oz", "feta cheese"],
+        [0.25, "cup", "grated Parmesan"],
+        [0.5, "cup", "shredded mozzarella"],
+        ["Salt & pepper", "to taste"]
+    ],
+
+    "instructions": [
+        "Preheat the oven to 350ºF. Squeeze the excess moisture from the thawed spinach. Rinse any dirt or debris from the mushrooms, then slice thinly. Mince the garlic.",
+        "Add the mushrooms, garlic, and a pinch of salt and pepper to a non-skillet spritzed lightly with non-stick spray (or a splash of cooking oil). Sauté the mushrooms and garlic until the mushrooms are soft and all of their moisture has evaporated away (5-7 minutes).",
+        "Coat a 9-inch pie dish with non-stick spray. Place the squeeze-dried spinach in the bottom of the pie dish. Place the sautéed mushrooms on top of the spinach, followed by the crumbled feta.",
+        "In a medium bowl, whisk together the eggs, milk, and Parmesan. Season lightly with pepper. Pour the egg mixture over the vegetables and feta in the pie dish. Top with the shredded mozzarella.",
+        "Place the pie dish on a baking sheet for easy transfer in and out of the oven. Bake the crustless quiche for 45-55 minutes, or until the top is golden brown (ovens may vary). Cut into six slices and serve."
+    ]
 }]
