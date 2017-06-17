@@ -20,6 +20,10 @@ small.ingredient-description {
     color: rgb(85, 85, 85);
 }
 
+.selected {
+    background: rgb(180, 231, 255);
+}
+
 /* Instruction Element */
 div.instruction {
     padding: 5px;

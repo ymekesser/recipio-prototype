@@ -18,7 +18,7 @@ function MapInputFormatToRecipeObject(inputRecipe){
         description: inputRecipe.description,
         source: inputRecipe.source,
         ingredients: MapInputIngredientsToIngredientObjects(inputRecipe.ingredients),
-        instructions: inputRecipe.instructions
+        instructions: MapInputInstructionsToInstructionObjects(inputRecipe.instructions)
     };
 }
 
@@ -72,4 +72,9 @@ function MapInputIngredientToIngredientObject(inputIngredient){
     }
 
     return ingredientObject;
+}
+
+function MapInputInstructionsToInstructionObjects(inputIngredients) {
+    return inputIngredients
+        .map(inputIngredient => [inputIngredient]);
 }
